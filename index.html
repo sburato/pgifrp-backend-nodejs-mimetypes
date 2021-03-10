@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Site otimizado para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Adicionar a fonte roboto através do serviço do fontes do Google -->    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">    
+
+    <!-- Adicionar bootstrap  -->    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Adicionar font-awesome -->        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Adicionar customizações de CSS -->        
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>PedidosPontoCom</title>
+  </head>  
+
+  <body class="bg-light">
+    <!-- Menu de navegação -->        
+    <header>
+      <div class="container-fluid mb-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border border-light shadow-sm fixed-top">        
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="imagem/logo.png" alt="Pedidos Ponto Com">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+  
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active"><a class="nav-link pr-5 navbar-titulo" href="#">Início<span class="sr-only">
+              (current)</span></a></li>
+              <li class="nav-item"><a class="nav-link pr-5 navbar-titulo" href="#">Softwares</a></li>
+              <li class="nav-item"><a class="nav-link pr-5 navbar-titulo" href="#">Parceiros</a></li>
+              <li class="nav-item"><a class="nav-link pr-5 navbar-titulo" href="#">Blog</a></li>                
+              <li class="nav-item"><a class="nav-link pr-5 navbar-titulo" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a></li>
+              <li class="nav-item"><button type="button" class="btn btn-outline-primary mr-2 shadow-lg">
+              Entrar</button></li>              
+              <li class="nav-item"><button type="button" class="btn btn-outline-success shadow-lg">
+              Cadastrar-se</button></li>                            
+            </ul>
+          </div>        
+        </nav> 
+      </div>     
+    </header>
+
+    <div class="pb-xl-5 pb-lg-5 pb-md-5 pb-sm-5 p-5"></div>
+
+    <main>
+      <!-- Sessão de apresentação do sistema -->      
+      <section class="container-fluid bg-light">
+        <div class="row">                               
+          <div class="col-12 col-lg-4 col-xl-4 p-5">
+            <h2 class="banner-titulo">A melhor plataforma para emissão de pedidos.</h2>
+            <p class="text-secondary mt-4">A PedidoPontoCom te ajuda a vender mais e proporciona melhor experiência com o cliente. Possui um conjunto perfeito entre web e aplicativo mobile, possibilitando realizar vendas on-line e off-line, 24 horas por dia em qualquer lugar.</p>
+            <div>
+              <button type="button" class="btn btn-primary banner-botao">Experimentar Grátis</button>
+              <button type="button" class="btn btn-primary banner-botao">Solicitar uma demonstração</button>
+            </div>            
+          </div>
+
+          <div class="col-12 col-lg-8 col-xl-8 text-center p-5">
+            <img class="img-fluid" src="imagem/automacao-forca-vendas.jpg" alt="">              
+          </div>            
+        </div>                      
+      </section>
+
+      <br>
+
+      <!-- Sessão de apresentação dos números do sistema -->         
+      <section class="container">
+        <h1 class="text-center pt-5">Nossos números</h1>
+          <div class="row">                               
+            <div class="col-12 col-lg-4 col-xl-4 p-5">
+              <h3 class="text-center fonte-nosso-numero">15.000+</h3>         
+              <p class="text-center text-secondary">Usuários Cadastrados</p>               
+            </div>
+            <div class="col-12 col-lg-4 col-xl-4 p-5">
+              <h3 class="text-center fonte-nosso-numero">500.000+</h3>         
+              <p class="text-center text-secondary">Pedidos Emitidos</p>                
+            </div>            
+            <div class="col-12 col-lg-4 col-xl-4 p-5">
+              <h3 class="text-center fonte-nosso-numero">8.000+</h3>         
+              <p class="text-center text-secondary">Aplicativos baixados</p>                  
+            </div>                  
+          </div>
+      </section>
+ 
+      <!-- Sessão de plano e preços do sistema -->         
+      <section class="container bg-light">
+        <h1 class="text-center pt-5">Plano e preços</h2>  
+        <br>                 
+        
+        <div class="row justify-content-center">
+          <article class="card p-2 m-4 col-md-3 card-planos text-center">
+            <div class="card-body">
+              <h5 class="card-title fonte-titulo-plano">Mensal</h5>
+              <p class="card-text fonte-valor-plano">R$ 19</p>
+              <p class="card-text text-secondary">por usuário</p> 
+              <button type="button" class="btn btn-outline-primary mt-3 card-botao">Teste Grátis</button>                           
+            </div>
+          </article>        
+          <article class="card p-2 m-4 col-md-3 card-planos text-center">
+            <div class="card-body">         
+              <h5 class="card-title fonte-titulo-plano">Trimestral</h5>
+              <p class="card-text fonte-valor-plano">R$ 57</p>
+              <p class="card-text text-secondary">por usuário</p> 
+              <button type="button" class="btn btn-outline-primary mt-3 card-botao">Teste Grátis</button>                                                      
+            </div>
+          </article>           
+          <article class="card p-2 m-4 col-md-3 card-planos text-center">
+            <div class="card-body">         
+              <h5 class="card-title fonte-titulo-plano">Semestral</h5>
+              <p class="card-text fonte-valor-plano">R$ 107</p>
+              <p class="card-text text-secondary">por usuário</p> 
+              <button type="button" class="btn btn-outline-primary mt-3 card-botao">Teste Grátis</button>                                                      
+            </div>
+          </article> 
+          <article class="card p-2 m-4 col-md-3 card-planos text-center">
+            <div class="card-body">          
+              <h5 class="card-title fonte-titulo-plano">Anual</h5>
+              <p class="card-text fonte-valor-plano">R$ 215</p>
+              <p class="card-text text-secondary">por usuário</p> 
+              <button type="button" class="btn btn-outline-primary mt-3 card-botao">Teste Grátis</button>                                                      
+            </div>
+          </article>                                            
+        </div>                                 
+      </section>
+    </main>  
+
+    <!-- Rodapé do sistema -->       
+    <footer>
+      <div class="footer-menu">
+        <div class="container-fluid mt-5 p-5">
+          <div class="row d-flex">
+            <div class="col-sm-12 col-md-4 col-lg-2 col-xl-2 footer-fonte-01">
+              <h4>Fale Conosco</h4>
+              <p class="mt-4">Telefone</p>
+              <p>(99)9999-9999</p>              
+              <br>
+              <p>Email</p>
+              <p>contato@pedido.com.br</p>              
+            </div>                
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 footer-fonte-01 pl-xl-5 pl-lg-5">
+              <h4>PedidosPontoCom</h4>
+              <ul class="navbar-nav mt-4">
+                <li class="nav-link">Entrar</li>
+                <li class="nav-link">Cadastrar-se</li>
+                <li class="nav-link">Planos e preços</li>
+              </ul>
+            </div>                             
+            <div class="col-sm-12 col-md-4 col-lg-2 col-xl-2 footer-fonte-01">
+              <h4>Ajuda</h4>
+              <ul class="navbar-nav mt-4">
+                <li class="nav-link">Central de ajuda</li>
+                <li class="nav-link">Central de vídeos</li>
+                <li class="nav-link">Blog</li>
+              </ul>                
+            </div>                     
+            <div class="col-sm-12 col-md-4 col-lg-2 col-xl-2 footer-fonte-01">
+              <h4>Sobre</h4>
+              <ul class="navbar-nav mt-4">
+                <li class="nav-link">Sobre nós</li>
+                <li class="nav-link">Trabalhe conosco</li>
+              </ul>                
+            </div>                                                                               
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 footer-fonte-01">
+              <h4>Baixe nossos Aplicativos</h4>
+              <div class="footer-apps">
+                <i class="fab fa-google-play"></i>                
+              </div>
+              <div class="footer-apps">
+                <i class="fab fa-apple"></i>                
+              </div>              
+            </div>                
+          </div>
+
+          <hr>
+
+          <div class="row d-flex justify-content-center">       
+            <img id="logo" class="logo" src="imagem/logo.png" alt="Pedidos Ponto Com">
+          </div>          
+
+          <div class="row d-flex justify-content-center">       
+            <h5 class="p-3 mt-3 footer-fonte-01">Termos e Condições de uso | Política de privacidade</h5>
+          </div>             
+        </div>
+      </div>
+    </footer>
+
+    <!-- Formulário modal para contato -->    
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <dialog class="modal-content">
+          <header class="modal-header">
+            <h5 class="modal-title" id="ModalLabel">Entre em contato</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </header>
+          <main class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="formGroupInput">Nome completo</label>
+                <input type="text" class="form-control" id="formGroupInput" placeholder="Insira o seu nome completo">
+              </div>            
+              <div class="form-group">
+                <label for="formControlInput">Endereço de email</label>
+                <input type="email" class="form-control" id="formControlInput" placeholder="Insira o seu endereço de email">
+              </div>
+              <div class="form-group">
+                <label for="formControlTextarea">Deixe o seu comentário</label>
+                <textarea class="form-control" id="formControlTextarea"  placeholder="Insera aqui o seu comentário" rows="3"></textarea>
+              </div>
+            </form>
+          </main>
+          <footer class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </footer>
+        </dialog>
+      </div>
+    </div>  
+
+    <!-- Para o Bootstrap e o font-awewome funcionar corretamente, precisamos adicionar alguns componentes que 
+      fazem uso do JavaScript, como o jQuery, all.min.js e o arquivo bootstrap.min.js . -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>    
+  </body>
+</html>

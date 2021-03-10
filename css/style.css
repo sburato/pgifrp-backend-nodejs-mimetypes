@@ -1,0 +1,106 @@
+/* Garantindo que todo o corpo da página tenha a configuração abaixo */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Configurações para que toda a linha da página respeite a margem abaixo */
+hr {
+  margin: 40px 0;
+}
+
+
+/* Configurações para barra de títulos */
+.logo {
+  height: 75px;
+}
+
+.navbar-titulo {
+  font-size: 16px;
+  color: blueviolet !important;  
+}
+
+.navbar-titulo:hover {
+  font-weight: bold;
+}
+
+
+/* Configurações para o banner */
+.banner-titulo {
+  font-size: 50px;
+  font-weight: bold;  
+}
+
+.banner-botao {
+  font-size: 14px;
+  padding: 12px;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  background-color: blueviolet;
+}
+
+/* Configurações para os números apresentados */
+.fonte-nosso-numero {
+  font-size: 50px;
+  font-weight: bold;  
+  color: blueviolet;  
+}
+
+
+/* Configurações para cartões que definem os planos e os preços */
+.fonte-titulo-plano {
+  font-size: 30px;
+  font-weight: bold;    
+}
+
+.fonte-valor-plano {
+  font-size: 30px;
+  padding: 15px;   
+}
+
+.card-botao {
+  color: blueviolet;
+  border: 1px solid blueviolet;    
+}
+
+.card-botao:hover {
+  background-color: blueviolet;
+  border: 1px solid blueviolet;  
+}
+
+.card-planos {
+  max-width: 14rem;
+  background-color: white;    
+  border-radius: 8px;  
+}
+
+.card-planos:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}  
+
+
+/* Configurações para rodapé */
+.footer-menu {
+  background-color: #eff2f9;  
+  border-bottom: 1px solid white;    
+}
+
+.footer-fonte-01, ul li {
+  font-size: 16px;
+  color: #4b4a4a;
+}
+
+.footer-apps {
+	padding: 10px;
+  display: inline-block;
+}
+
+.fa-google-play {
+  color: gray;
+  font-size: 36px;  
+}
+
+.fa-apple {
+  color: gray;
+  font-size: 48px;  
+}
